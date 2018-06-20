@@ -59,6 +59,7 @@ a:link, a:visited, a:hover, a:active {
     background-color: #4aaaa5;
     color: #ffffff;
     width: 220px;
+    padding: 10px 0px 10px 0px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-align: Left;
     display: inline-block;
@@ -73,19 +74,55 @@ a:link, a:visited, a:hover, a:active {
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-align: center;
     display: inline-block;
-    float: left;
     line-height: 200%;
     padding-left: 15px;
 }
   
-.header-right {
+.header-right-overall {
     background-color: #FFFFFF;
     color:#777777;
-    width: 740;
+    width: 740px;
+    padding: 10px 0px 10px 0px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: right; 
+    float: right;
+    display: inline-block;
+    line-height: 200%;
+}
+
+.header-right-left {
+    background-color: #FFFFFF;
+    text-align: center;
+    color:#777777;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-right: 2px solid #dddddd;
+    display: inline-block;
+    text-align: center;
+    padding-right: 15px;
+    line-height: 200%;
+}
+
+.header-right-mid {
+    background-color: #FFFFFF;
+    text-align: center;
+    color:#777777;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-right: 2px solid #dddddd;
+    display: inline-block;
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 200%;
+}
+
+.header-right-right {
+    background-color: #FFFFFF;
+    text-align: center;
+    color:#777777;
     font-family: 'Georgia', Times, Times New Roman, serif;
     display: inline-block;
-    float: left;
-    text-align: right;
+    text-align: center;
+    padding-left: 15px;
     line-height: 200%;
 }
 
